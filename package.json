@@ -2,6 +2,11 @@
   "name": "rn_falkai_peter_poke",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  "resolutions": {
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "@types/react": "~17.0.21"
+  },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -10,17 +15,36 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "~44.0.0",
+    "@react-native-community/netinfo": "^8.2.0",
+    "@react-navigation/drawer": "^6.4.1",
+    "@react-navigation/native": "^6.0.10",
+    "@react-navigation/native-stack": "^6.6.1",
+    "easy-ts-redux": "^0.0.5",
+    "expo": "44.0.6",
     "expo-status-bar": "~1.2.0",
+    "pokenode-ts": "^1.13.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
-    "react-native-web": "0.17.1"
+    "react-native-dropdown-picker": "^5.4.0",
+    "react-native-gesture-handler": "~2.1.0",
+    "react-native-reanimated": "~2.3.1",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-screens": "~3.10.1",
+    "react-native-table-component": "^1.2.2",
+    "react-native-web": "0.17.1",
+    "react-redux": "^8.0.0",
+    "redux": "^4.2.0",
+    "redux-saga": "^1.1.3",
+    "reselect": "^4.1.5"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
+    "@types/lodash": "^4.14.182",
     "@types/react": "~17.0.21",
     "@types/react-native": "~0.64.12",
+    "@types/react-native-table-component": "^1.2.4",
+    "prettier": "^2.6.2",
     "typescript": "~4.3.5"
   },
   "private": true
